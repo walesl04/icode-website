@@ -5,59 +5,57 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>iCode Technology</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className={styles.title+' '+styles.highlight}>
+          iCode Technology
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Desenvolvimento especializado{' '}
+          <code className={styles.code}>Apps e Softwares</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <div className={styles.card}>
+            <h3>Apps &rarr;</h3>
+            <p>Desenvolvimento de Apps Android e iOS</p>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <div  className={styles.card}>
+            <h3>Softwares &rarr;</h3>
+            <p>Desenvolvimento e manutenção de plataformas web e softwares de gestão.</p>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+          <div
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            <h3>Consultoria</h3>
+            <p>Planejamento de projetos e plano de execução.</p>
+          </div>
 
-          <a
+          <div
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Contato</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              e-mail: equipeicode@gmail.com
             </p>
-          </a>
+          </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://icodetechnology.com.br"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Powered by &nbsp; <h4 className={styles.highlight}>iCode</h4>
         </a>
       </footer>
     </div>
