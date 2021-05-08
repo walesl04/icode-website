@@ -40,6 +40,11 @@
   text-decoration: none;
 }
 
+.highlight {
+  color: #3797f1;
+  text-decoration: none;
+}
+
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -90,6 +95,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  min-height: 200px;
 }
 
 .card:hover,
